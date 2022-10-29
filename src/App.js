@@ -1,5 +1,7 @@
+// rafce npm start 
 import Header from './Components/Header'
 import Tasks from './Components/Tasks'
+import AddTask from './Components/AddTask'
 import {useState} from 'react'
 const App = () => {
   const [tasks, setTasks] = useState(
@@ -32,6 +34,7 @@ const App = () => {
   return (
     <div className = 'container'>
       <Header />
+      <AddTask />
       {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete = {deleteTask}
       onToggle = {toggleReminder}/>)
       : ('Empty Tasks')}
