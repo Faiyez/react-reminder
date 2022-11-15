@@ -18,7 +18,7 @@ body {
   border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;
-  background: linear-gradient(rgb(0, 217, 255),rgb(0, 119, 128))
+  background: linear-gradient(#9796f0,#fbc7d4)
 }
 
 .header {
